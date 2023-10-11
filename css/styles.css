@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.resultado-item {
+    
+}
+
+.selectTemp {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

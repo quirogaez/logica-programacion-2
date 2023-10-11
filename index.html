@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+</head>
+<body>
+    <main>
+        <form action="#">
+            <div id="container">
+                <h1>Conversor de Temperatura</h1>
+                <label for="celsius">Grados Celsius:</label>
+                <input type="number" id="celsius" placeholder="Ingrese la temperatura en °C">
+                <select name="options" id="selectConv" class="selectTemp">
+                    <option value="kel">Kelvin</option>
+                    <option value="far">Farenhait</option>
+                </select>
+                <button type="submit" id="btnSubmmit">Convertir</button>
+                <div id="resultado"></div>
+            </div>
+        </form>
+    </main>
+</body>
+    <script src="/js/script.js"></script>       
+</html>
